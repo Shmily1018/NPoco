@@ -666,7 +666,7 @@ namespace NPoco
             }
         }
 
-        protected virtual void OnExecutingCommand(DbCommand cmd)
+        public virtual void OnExecutingCommand(DbCommand cmd)
         {
 
         }
